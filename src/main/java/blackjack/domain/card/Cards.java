@@ -33,7 +33,7 @@ public class Cards {
         return this.cards.get(FIRST_CARD_INDEX);
     }
 
-    public String getCards() {
+    public String getCardsInformation() {
         return cards.stream()
                 .map(Card::getName)
                 .collect(Collectors.joining(", "));

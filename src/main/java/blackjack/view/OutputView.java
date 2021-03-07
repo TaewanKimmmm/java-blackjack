@@ -40,10 +40,10 @@ public class OutputView {
     }
 
     public static void printCardsAndScore(Dealer dealer, Players players) {
-        System.out.println(dealer.getName() + " 카드: " + dealer.getCards() + "- 결과: " + dealer.calculateScore());
+        System.out.println(dealer.getName() + " 카드: " + dealer.getCardsInformation() + "- 결과: " + dealer.calculateScore());
 
         for (Player player : players.getPlayers()) {
-            System.out.println(player.getName() + "카드: " + player.getCards() + "- 결과: " + player.calculateScore());
+            System.out.println(player.getName() + "카드: " + player.getCardsInformation() + "- 결과: " + player.calculateScore());
         }
     }
 
@@ -63,7 +63,7 @@ public class OutputView {
     }
 
     public static void printPlayerCards(Player player) {
-        System.out.println(player.getName() + "카드: " + player.getCards());
+        System.out.println(player.getName() + "카드: " + player.getCardsInformation());
     }
 
     public static void printErrorMessage(IllegalArgumentException exception) {

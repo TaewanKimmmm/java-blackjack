@@ -21,8 +21,8 @@ public class Dealer extends Participant {
     }
 
     @Override
-    public String getCards() {
-        return this.cards.getCards();
+    public String getCardsInformation() {
+        return this.cards.getCardsInformation();
     }
 
     @Override

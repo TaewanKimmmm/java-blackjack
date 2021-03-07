@@ -29,6 +29,6 @@ public class Player extends Participant {
 
     @Override
     public String showCardsAtFirst() {
-        return getCards();
+        return getCardsInformation();
     }
 }

@@ -24,8 +24,8 @@ public abstract class Participant {
         this.cards.addCard(card);
     }
 
-    public String getCards() {
-        return this.cards.getCards();
+    public String getCardsInformation() {
+        return this.cards.getCardsInformation();
     }
 
     public int calculateScore() {
